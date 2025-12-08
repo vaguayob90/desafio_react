@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CardPizza = ({ name, price, ingredients, img }) => {
   return (
     <div className="card h-100 shadow-sm">
