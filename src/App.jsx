@@ -1,9 +1,10 @@
 import Navbar from './Navbar';
-import Home from './Home';
-import RegisterPage from './RegisterPage';
-import LoginPage from './LoginPage';
+// import Home from './Home';
+// import RegisterPage from './RegisterPage';
+// import LoginPage from './LoginPage';
 import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Cart from './Cart';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navbar />
       {/* <Home /> */}
       {/* <RegisterPage /> */}
-      <LoginPage />
+      {/* <LoginPage /> */}
+      <Cart />
       <Footer />
     </div>
   );
